@@ -1,38 +1,95 @@
-.App {
-  text-align: center;
+/* .body-bg-light{
+    
+    color: black;
 }
+.body-bg-dark{
+    
+    color: white;
+} */
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+input::placeholder {
+    color: #212529;
   }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+  
+  input[data-mode="dark"]::placeholder {
+    color: white;
   }
-  to {
-    transform: rotate(360deg);
+
+  body {
+    font-family: 'Poppins', sans-serif;
   }
+  @media (max-width: 767px) {
+    .btn {
+
+      width: 100% !important;
+      margin-left: 0 !important;
+      margin-right: 0 !important;
+    }
+  }
+
+  h4{
+ white-space: nowrap;
+ overflow: hidden;
+ width: 100%;
+ animation: animtext 4s steps(80, end); 
+  transition: all cubic-bezier(0.1, 0.7, 1.0, 0.1);
 }
+@keyframes animtext { 
+ from {
+     width: 0;
+    transition: all 2s ease-in-out;
+ } 
+}
+
+  textarea::placeholder {
+    color: #212529;
+  }
+
+  textarea[data-mode="dark"]::placeholder {
+    color: white;
+  }
+
+  .footer {
+    position: relative;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 2rem;
+    background: rgb(9, 113, 249);
+    color: white;
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.2rem;
+  }
+  .center-text{
+    text-align: center;
+  }
+
+  .bg-clr{
+    background-color: rgb(254, 247, 232);
+  }
+
+  /* .stick-btm{
+    bottom: 0;
+    position: relative;
+  } */
+
+  @media (max-width: 767px) {
+    .footer {
+      position: relative;
+      font-size: 13px;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      padding: 2rem;
+      background: rgb(9, 113, 249);
+      color: white;
+      font-weight: 500;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 0.2rem;
+    }
+  }
