@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/text-tweaker-app/static/css/main.ca292898.css",
-    "main.js": "/text-tweaker-app/static/js/main.ac4c9ece.js",
+    "main.js": "/text-tweaker-app/static/js/main.ff9d9476.js",
     "static/js/787.d3befce1.chunk.js": "/text-tweaker-app/static/js/787.d3befce1.chunk.js",
     "index.html": "/text-tweaker-app/index.html",
     "main.ca292898.css.map": "/text-tweaker-app/static/css/main.ca292898.css.map",
-    "main.ac4c9ece.js.map": "/text-tweaker-app/static/js/main.ac4c9ece.js.map",
+    "main.ff9d9476.js.map": "/text-tweaker-app/static/js/main.ff9d9476.js.map",
     "787.d3befce1.chunk.js.map": "/text-tweaker-app/static/js/787.d3befce1.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.ca292898.css",
-    "static/js/main.ac4c9ece.js"
+    "static/js/main.ff9d9476.js"
   ]
 }
