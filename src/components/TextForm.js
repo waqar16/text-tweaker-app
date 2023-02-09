@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 
 export default function TextForm(props) {
-  const [text, setText] = useState("");
+  const [text, setText] = useState("This is the sample text.");
   const [searchText, setSearchText] = useState("");
   const [replaceText, setReplaceText] = useState("");
 
@@ -198,20 +198,20 @@ export default function TextForm(props) {
           </p>
         </div>
         <div className="btn btn-group container">
-          <button className="btn btn-primary" onClick={handleCopy}>
+          <button disabled={text.length===0} className="btn btn-primary" onClick={handleCopy}>
             Copy all text
           </button>
 
           <button className="btn btn-success" onClick={handlePaste}>
             Paste in input
           </button>
-          <button className="btn btn-danger " onClick={handleClear}>
+          <button  disabled={text.length===0} className="btn btn-danger " onClick={handleClear}>
             Clear all text
           </button>
         </div>{" "}
         <br />
         <div className="my-3 container">
-          <button
+          <button  disabled={text.length===0}
             className={`btn btn-${
               props.mode === "light" ? "dark" : "light"
             } my-2 `}
@@ -219,7 +219,7 @@ export default function TextForm(props) {
           >
             UpperCase
           </button>
-          <button
+          <button  disabled={text.length===0}
             className={`btn btn-${
               props.mode === "light" ? "dark" : "light"
             }  my-2 mx-2`}
@@ -227,7 +227,7 @@ export default function TextForm(props) {
           >
             LowerCase
           </button>
-          <button
+          <button  disabled={text.length===0}
             className={`btn btn-${
               props.mode === "light" ? "dark" : "light"
             } my-2`}
@@ -235,7 +235,7 @@ export default function TextForm(props) {
           >
             ToggleCase
           </button>
-          <button
+          <button  disabled={text.length===0}
             className={`btn btn-${
               props.mode === "light" ? "dark" : "light"
             }  my-2 mx-2`}
@@ -243,7 +243,7 @@ export default function TextForm(props) {
           >
             Capitalize Word
           </button>
-          <button
+          <button  disabled={text.length===0}
             className={`btn btn-${
               props.mode === "light" ? "dark" : "light"
             } my-2`}
@@ -293,7 +293,7 @@ export default function TextForm(props) {
               type="button"
               onClick={textReplace}
             >
-              Replace
+              Replace all
             </button>
           </form>
           <p>

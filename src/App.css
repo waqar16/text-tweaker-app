@@ -20,12 +20,57 @@ input::placeholder {
   }
   @media (max-width: 767px) {
     .btn {
-
+      font-size: 12px;
       width: 100% !important;
       margin-left: 0 !important;
       margin-right: 0 !important;
     }
+
+    h1{
+      font-size: 20px;
+    }
+
+    h4{
+      font-size: 17px;
+    }
+    h3{
+      font-size: 18px;
+    }
+
+    p{
+      font-size: 13px;
+    }
+
+    .alert{
+      height: 110px;
+    }
+    .btn-close{
+      height: 50px;
+    }
+
+    textarea input{
+      font-size: 13px;
+    }
+
+    textarea::placeholder {
+      color: #212529;
+      font-size: 13px;
+    }  
+    textarea[data-mode="dark"]::placeholder {
+      color: white;
+      font-size: 13px;
+    }
+    input::placeholder {
+      color: #212529;
+      font-size: 13px;
+    }
+    
+    input[data-mode="dark"]::placeholder {
+      color: white;
+      font-size: 13px;
+    }
   }
+ 
 
   h4{
  white-space: nowrap;
@@ -79,11 +124,11 @@ input::placeholder {
   @media (max-width: 767px) {
     .footer {
       position: relative;
-      font-size: 13px;
+      font-size: 10px;
       bottom: 0;
       left: 0;
       right: 0;
-      padding: 2rem;
+      padding: 1rem;
       background: rgb(9, 113, 249);
       color: white;
       font-weight: 500;

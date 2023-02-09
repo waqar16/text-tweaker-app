@@ -8,7 +8,7 @@ function Alert(props) {
         role="alert"
       >
         <div className="container">
-          <strong>{props.alert.type}: </strong> {props.alert.msg}
+         <p> <strong>{props.alert.type}: </strong> {props.alert.msg}</p>
           <button
             type="button"
             className="btn-close"
