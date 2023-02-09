@@ -20,29 +20,29 @@ input::placeholder {
   }
   @media (max-width: 767px) {
     .btn {
-      font-size: 12px;
+      font-size: 14px;
       width: 100% !important;
       margin-left: 0 !important;
       margin-right: 0 !important;
     }
 
     h1{
-      font-size: 20px;
+      font-size: 22px;
     }
 
     h4{
-      font-size: 17px;
+      font-size: 19px;
     }
     h3{
-      font-size: 18px;
+      font-size: 20px;
     }
 
     p{
-      font-size: 13px;
+      font-size: 15px;
     }
 
     .alert{
-      height: 110px;
+      height: 100px;
     }
     .btn-close{
       height: 50px;
@@ -124,7 +124,7 @@ input::placeholder {
   @media (max-width: 767px) {
     .footer {
       position: relative;
-      font-size: 10px;
+      font-size: 13px;
       bottom: 0;
       left: 0;
       right: 0;
