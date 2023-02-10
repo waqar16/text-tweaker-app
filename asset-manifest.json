@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/text-tweaker-app/static/css/main.f1457aa9.css",
-    "main.js": "/text-tweaker-app/static/js/main.2a9e3fe0.js",
+    "main.css": "/text-tweaker-app/static/css/main.8f52bcd0.css",
+    "main.js": "/text-tweaker-app/static/js/main.62ff8474.js",
     "static/js/787.d3befce1.chunk.js": "/text-tweaker-app/static/js/787.d3befce1.chunk.js",
     "index.html": "/text-tweaker-app/index.html",
-    "main.f1457aa9.css.map": "/text-tweaker-app/static/css/main.f1457aa9.css.map",
-    "main.2a9e3fe0.js.map": "/text-tweaker-app/static/js/main.2a9e3fe0.js.map",
+    "main.8f52bcd0.css.map": "/text-tweaker-app/static/css/main.8f52bcd0.css.map",
+    "main.62ff8474.js.map": "/text-tweaker-app/static/js/main.62ff8474.js.map",
     "787.d3befce1.chunk.js.map": "/text-tweaker-app/static/js/787.d3befce1.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f1457aa9.css",
-    "static/js/main.2a9e3fe0.js"
+    "static/css/main.8f52bcd0.css",
+    "static/js/main.62ff8474.js"
   ]
 }
